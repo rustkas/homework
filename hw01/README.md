@@ -29,7 +29,7 @@ repository.
 
 ## Part 01: Cargo
 
-Create a new Rust library: `cargo new hw01`. Cargo creates this directory
+Create a new Rust library: `cargo new hw01 --lib`. Cargo creates this directory
 structure:
 
 ```
