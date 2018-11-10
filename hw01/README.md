@@ -157,7 +157,7 @@ flag under the hood). This is handy because it means that you don't have to
 waste time recompiling your tests every time you build unless you're actually
 going to run them.
 
-All of the functions in `test.rs` are annotated with the `#[test]` attribute;
+All of the functions in `tests_provided.rs` are annotated with the `#[test]` attribute;
 this tells the compiler that they're tests. Test functions must have the
 signature `fn() -> ()`, or else they will not compile. Tests will be run when
 you invoke `cargo test`.
